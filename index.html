@@ -3,15 +3,37 @@
 	<style>
 
 
-	.box{
-	@keyframes animName {
-	 0%{
-	    transform: rotate(0deg);
-	   }
-	100%{
-	    transform: rotate(360deg);
-	   }
-	}
+	.load {
+width: 50px;
+height: 50px;
+background: #1aa;
+    -webkit-animation: spin 1.5s linear infinite;
+    -moz-animation: spin 1.5s linear infinite;
+    -ms-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0% {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin {
+	0% {-moz-transform: rotate(0deg);}
+	100% {-moz-transform: rotate(360deg);}
+}
+@-ms-keyframes spin {
+	0% {-ms-transform: rotate(0deg);}
+	100% {-ms-transform: rotate(360deg);}
+}
+@-o-keyframes spin {
+	0% {-o-transform: rotate(0deg);}
+	100% {-o-transform: rotate(360deg);}
+}
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
 
 	 </style>
 <title>　CoderDojo三の丸</title>
@@ -34,7 +56,7 @@
 </div>
 <div style="border: 0px solid #F33; position: fixed;    left: 8em; top:   0em; bottom: auto; width: calc(100% - 8em); height: 100%; z-index:  1; margin: 0; padding: 0; color: #333; background: aquamarine; overflow-y: scroll;">
 <div style="margin:0 auto; text-align:center;">
-<div class="box">
+<div class="load">
 <img src="http://stopover.co.jp/coderdojo/logo.png" width="500" height="500" alt=""><div class="border"></div>
 <div style="margin:0 auto;">
 
