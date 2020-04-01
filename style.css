@@ -21,21 +21,8 @@
 		nav{
 			margin-top: 0;
 		}
-.navbarmain{
-	margin: 0;
-  padding: 0;
 
-}
-.jumbotron { background:url() center no-repeat; background-size: cover;}
-.no-gutters {
-  margin:0;
-  padding:0;
-}
 
-.no-gutters　> .col,
-.no-gutters　> [class*="col-"] {
-  margin:0;
-  padding:0;
 }
 .mainpic{
 	padding:0px;
@@ -50,4 +37,12 @@ margin-top: 0;
 }
 .tmp{
 float:left;
+}
+.camain{
+	magin:0px;
+	padding:0px;
+}.amp{
+	 margin: 0 auto;
+	 max-width: 70%
+
 }
