@@ -1,51 +1,144 @@
 <!doctype html>
-<html><head>
-<title>　CoderDojo三の丸 開催報告</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-</head>
-<body>　<body background="http://stopover.co.jp/coderdojo/coderdojo.png">
-<div style="border: 0px solid #333; position: fixed;    left:  0em; top:   0em; bottom: auto; width: 10em; height: 100%; z-index:  2; margin: 0; padding: 0; color: #F33; background: #FFF; overflow-y: scroll; font-size: 0.81em;">
+	<html><head>
+		 <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 
-<br>
-<font size="2">
-<a href="https://coderdojo.jp/docs/about-coderdojo/">CoderDojoって何？</a><br>
-<a href="https://coderdojo.jp/">CoderDojojapan</a><br>
-<a href="https://ituyama.github.io/sannomaru/kaisai.html">開催報告</a><br>
-<a href="https://twitter.com/coderdojo3no0">公式Twitter</a><br>
-<a href="https://www.facebook.com/CoderDojo3nomaru/">公式facebook</a><br>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-
-
-
-<br>更新日 2019/11/16
-</font>
-</div>
-<div style="border: 0px solid #F33; position: fixed;    left: 8em; top:   0em; bottom: auto; width: calc(100% - 8em); height: 100%; z-index:  1; margin: 0; padding: 0; color: #333; background: #FFF; overflow-y: scroll;">
-<div style="margin:0 auto; text-align:center;">
-
-<div style="margin:0 auto;">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+	<title>　CoderDojo三の丸</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<div id="loading">
+    <!-- FontAwsomeをローディング画像に使う fa-spinを付与して回転させる-->
+    <img src="dojo.png" width="100%" alt="">
+  </div>
+	<div class="wrap">
 
 
+			<nav class="navbar navbar-expand-sm navbar-dark bg-dark  mb-3 fixed-top">
+				<img src="http://stopover.co.jp/coderdojo/logo.png" width="40" alt="" class="load">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">CoderDojo三の丸</a>
+			<div class="collapse navbar-collapse">
+					<ul class="navbar-nav">
+							<li class="nav-item active">
+									<a class="nav-link" href="#">main</a>
+							</li>
+							<li class="nav-item">
+									<a class="nav-link" href="kaisai.html">開催報告</a>
+							</li>
+							<li class="nav-item">
+									<a class="nav-link" href="#">申し込み</a>
+							</li>
+					</ul>
+			</div>
+		</nav>
+		<div id="navbar" class="navbar-collapse collapse">
+	<ul class="nav navbar-nav">
+		<li class="active">
+			<a href="#">
+				<span class="glyphicon glyphicon-home"></span> Home
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<span class="glyphicon glyphicon-heart"></span> Mail
+			</a>
+		</li>
+	</ul>
+	<form action="" class="navbar-form navbar-right" role="search">
+		<div class="form-group">
+			<input type="text" id="quick-text" name="quick-text" class="form-control">
+		</div>
+		<button type="submit" class="btn btn-default">検索</button>
+	</form>
+</div><!--/.nav-collapse -->
+
+</div><!-- /.container -->
+</nav><!-- ナビゲーション終わり -->
+
+<div class="container">
+<div class="row">
+
+<!-- メイン記事 -->
+<div class="col-xs-12 col-sm-9">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h2 class="panel-title">タイトル名</h2>
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<img src="https://torina.top/media/images/capture_CO5KjDK.png" class="img-responsive">
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<p class="text-primary">カテゴリ名など</p>
+					<p class="text-primary">時間など</p>
+					<p class="text-primary">コメント数など</p>
+					<p class="text-primary">aaa</p>
+					<hr>
+					<a href="#" class="btn btn-primary btn-block btn-lg">続きを読む</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- メイン記事終わり -->
+
+<!-- サイドバー -->
+<div class="col-xs-12 col-sm-3">
+
+	<!-- リンク -->
+	<ul class="list-group">
+		<li class="list-group-item active text-center">Link </li>
+		<li class="list-group-item">
+			<a href="#">リンクA</a>
+		</li>
+		<li class="list-group-item">
+			<a href="#">リンクB</a>
+		</li>
+	</ul><!-- リンク終わり -->
+
+	<!-- カテゴリー -->
+	<ul class="list-group">
+		<li class="list-group-item active text-center">カテゴリー </li>
+		<li class="list-group-item">
+			<a href="#">メインカテゴリ </a>
+			<a class="pull-right" href="#sub1" data-toggle="collapse">
+				<span class="caret"></span>
+			</a>
+		</li>
+		<div class="collapse" id="sub1">
+			<a href="#" class="list-group-item">サブカテゴリ1</a>
+			<a href="#" class="list-group-item">サブカテゴリ2</a>
+			<a href="#" class="list-group-item">サブカテゴリ3</a>
+		</div>
+	</ul><!-- カテゴリー終わり -->
+
+</div><!-- サイドバー終わり -->
+
+</div><!-- /.row -->
+</div><!-- /.container -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
 
 
-<h1>開催報告<a href="https://ituyama.github.io/sannomaru/2nd"><p>第２回</p></a><a href="https://ituyama.github.io/sannomaru/3rd"><p>第3回</p></a><a href="https://www.facebook.com/CoderDojo3nomaru/">申し込みはこちら<p></p></a><p><a href="https://www.facebook.com/CoderDojo3nomaru/"></a></p>&nbsp; <p></p>
-
-	<p></h1>
 
 
-
-<hr style="width: 640px; color:azure;">
-</div>
-</div>
-<div style="text-align:center; margin: 0 auto;width:100%;">
-<nav>&nbsp;</nav>
-<div style="margin-bottom:20px; font-size:0.75em; font-color:azure;">
-<strong>CoderDojo三の丸は皆様の寄付で成り立っております。</strong>
-
-</div>
-</div>
-</div>
+	</div>
 
 
-
-</body></html>
+</body>	</html>
