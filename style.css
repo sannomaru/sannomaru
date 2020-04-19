@@ -1,79 +1,39 @@
-
-		* {
-		  margin: 0;
-			padding: 0;
-		 	}
-			body{
-				margin: 0;
-					}
-
-		.load {
- 	 	display: inline-block;
- 		 font-size: 3em;
-		 animation: r1 30s linear infinite;
-		}
-
-
-		@keyframes r1 {
- 	 	0%   { transform: rotate(0deg); }
-  		100% { transform: rotate(360deg); }
-		}
-		nav{
-			margin-top: 0;
-		}
-
-
-}
-.mainpic{
-	padding:0px;
-	margin:0px;
+.jumbotron {
+  background-image: url("back.png");
+  background-size: cover;
+  background-position: center 60%;
+  height:400px;
 }
 
-.page-header {
-margin-top: 0;
-}
-h1 {
-margin-top: 0;
-}
-.tmp{
-float:left;
-}
-.camain{
-	magin:10px;
-	padding:10px;
-}.amp{
-	 margin: 0 auto;
-	 max-width: 70%
+body{padding-top: 56px;
+          }
 
+
+
+
+.wh {
+  color: #ffffff;
 }
-.pace-running .wrap {
-
-	            display:none;
-
-	        }
-					#loading {
-					  /* 画面一杯にローディング画面を広げる */
-					  height: 100%;
-					  width: 100%;
-					  background: #fff;
-					  position: fixed;
-					  top: 0px;
-					  left: 0px;
-					  z-index: 100;
-					  /* flexboxを使ってローディングアイコンを画面の中央に寄せる */
-					  display: -webkit-box;
-					  display: -ms-flexbox;
-					  display: flex;
-					  -webkit-box-pack: center;
-					  -ms-flex-pack: center;
-					  justify-content: center;
-					  -webkit-box-align: center;
-					  -ms-flex-align: center;
-					  align-items: center;
-					}
-
-					/* ローディングアイコン */
-					.fa-redo-alt {
-					  font-size: 200px;
-					  color: deepskyblue;
-					}
+.cool{
+  padding-top:70px;
+}
+.jumbotron2 {
+  background-image: url("saiyou.png");
+  background-size: cover;
+  background-position: center 60%;
+  height:400px;
+  background-attachment: fixed;
+}
+.jumbotron3{
+  background-image: url("spback.png");
+  background-size: cover;
+  background-position: center 60%;
+  height:400px;
+  background-attachment: fixed;
+}
+.pd{
+  padding-top:70px;
+}
+.padd{
+  margin:50px;
+}
