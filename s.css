@@ -1,0 +1,122 @@
+.jumbotron {
+  center no-repeat;
+  background-size: cover;
+}
+
+.back{
+  background-image:fface.jpg;
+  background-color:pink;
+}
+.face {
+  display: block;
+margin:100px;
+
+ text-align:center;
+ margin: 0 auto;
+ margin-top:100px;
+ border-radius: 51px;
+ background: #000000;
+ box-shadow:  12px 12px 24px #8f4824,
+              -12px -12px 24px #ffb85c;
+
+}
+
+.cent {
+  text-center;
+}
+
+.pd {
+  padding-top: 100px;
+}
+
+.if {
+  overflow-y: hidden;
+}
+
+.ppd {
+  margin-left: 30px
+}
+
+.ppd2 {
+  margin-left: 100px
+}
+
+.text3 {
+  font-family: serif;
+}
+.li{
+  list-style-type: none!important
+}
+.newf{
+  border-radius: 37px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  11px 11px 22px #b0b0b0,
+             -11px -11px 22px #ffffff;
+}
+.sn{
+  border-radius: 51px;
+  background: #ffffff;
+  box-shadow:  12px 12px 24px #8f8f8f,
+  width:auto;
+  height:auto;
+
+
+
+}
+body{
+  background-color: #ff8040;
+}
+ul {
+  list-style: none;
+}
+.icon{
+
+width:60px;
+height:60px;
+margin:10px;
+padding:10px;
+border-radius: 10px;
+background: #ff8040;
+box-shadow:  12px 12px 24px #8f4824,
+             -12px -12px 24px #ffb85c;
+}
+.comd{
+
+}
+.icon2{
+margin: 0px;
+padding:10px;
+
+}
+.name{
+
+font-family: 'Staatliches', cursive;
+margin:auto;
+text-align: center;
+padding-top: 10px;
+
+}
+.size1{
+  font-size:100px;
+  background: linear-gradient( to right,  navy 25%, steelblue 75% );
+ -webkit-background-clip: text;
+ color: transparent;
+
+}
+.size2{
+  font-size: 40px;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.top{
+
+  font-family: 'Staatliches', cursive;
+
+  padding-top: 300px;
+}
+.tsens{
+    font-size: 200px;
+}
+.skill{
+  font-size:100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
