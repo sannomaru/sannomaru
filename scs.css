@@ -14,10 +14,6 @@ margin:100px;
  text-align:center;
  margin: 0 auto;
  margin-top:100px;
- border-radius: 51px;
- background: #000000;
- box-shadow:  12px 12px 24px #8f4824,
-              -12px -12px 24px #ffb85c;
 
 }
 
@@ -45,7 +41,7 @@ margin:100px;
   font-family: serif;
 }
 .li{
-  list-style-type: none!important
+  list-style-type: none
 }
 .newf{
   border-radius: 37px;
@@ -63,9 +59,7 @@ box-shadow:  11px 11px 22px #b0b0b0,
 
 
 }
-body{
-  background-color: #ff8040;
-}
+
 ul {
   list-style: none;
 }
@@ -75,11 +69,10 @@ width:60px;
 height:60px;
 margin:10px;
 padding:10px;
-border-radius: 10px;
-background: #ff8040;
-box-shadow:  12px 12px 24px #8f4824,
-             -12px -12px 24px #ffb85c;
-}
+border-radius: 66px;
+background: linear-gradient(145deg, #4b8bc1, #3f75a2);
+box-shadow:  20px 20px 60px #3c6f99,
+             -20px -20px 60px #5196cf;
 .comd{
 
 }
@@ -97,14 +90,15 @@ padding-top: 10px;
 
 }
 .size1{
-  font-size:100px;
-  background: linear-gradient( to right,  navy 25%, steelblue 75% );
+  font-size:70px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: linear-gradient( to right,  navy 25%, black 75% );
  -webkit-background-clip: text;
  color: transparent;
 
 }
 .size2{
-  font-size: 40px;
+  font-size: 30px;
 font-family: 'Open Sans Condensed', sans-serif;
 }
 .top{
@@ -119,4 +113,8 @@ font-family: 'Open Sans Condensed', sans-serif;
 .skill{
   font-size:100px;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+  background-color:
+#4682b4 ;
 }
