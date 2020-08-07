@@ -1,3 +1,11 @@
+
+
+.content,
+.pic,
+.sankaku{
+  z-index:0;
+}
+
 .jumbotron{
 
 
@@ -11,27 +19,36 @@ background-size: cover;
 font-family: 'Poppins', sans-serif;
 color:white;
 }
+
+.pic{
+  position: absolute;
+    z-index:2;
+width:300px;
+height:150px;
+
+
+}
 .content{
 
     z-index:1;
-  position: absolute;
-      top:100px;
+  position:absolute;
+    top:100px;
     left:5px;
     height:150px;
     width:280px;
     padding-top:55px;
    }
-.pic{
-  position: absolute;
-    z-index:2;
-    top: 0;
-    left:0:
-
-
-}
 .cds{
-   position: relative;
+   position:absolute;
+z-index:100;
+
+
+
 }
+
+
+
+
 .sdw{
   box-shadow:
   0 1.9px 2.5px rgba(0, 0, 0, 0.057),
@@ -47,7 +64,7 @@ position: absolute;
   border-style: solid;
   border-width: 0 20px 20px 0;
   border-color: transparent #000000 transparent transparent;
-z-index:1;
+
 top:150px;
 left:-15px;
 }
@@ -78,7 +95,7 @@ left:-15px;
   z-index:0;
 position: absolute;
 width:110px;
-height:40px;;
+height:40px;
 padding: 0.5em 1em;
 top:10px;
 left: 10px;
@@ -95,4 +112,12 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 .sms{
   background-color: black;
   background:black;
+}
+.mas{
+  position: relative;
+}
+
+.cds{
+  position :relative;
+
 }
