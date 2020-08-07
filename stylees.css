@@ -1,0 +1,98 @@
+.jumbotron{
+
+
+position: relative;
+background: url(bxs.png) center center;
+background-size: cover;
+
+
+}
+.tops{
+font-family: 'Poppins', sans-serif;
+color:white;
+}
+.content{
+
+    z-index:1;
+  position: absolute;
+      top:100px;
+    left:5px;
+    height:150px;
+    width:280px;
+    padding-top:55px;
+   }
+.pic{
+  position: absolute;
+    z-index:2;
+    top: 0;
+    left:0:
+
+
+}
+.cds{
+   position: relative;
+}
+.sdw{
+  box-shadow:
+  0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+  0 5px 6.1px rgba(0, 0, 0, 0.076),
+  0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+  0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+  0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+  0 101px 74px rgba(0, 0, 0, 0.13);
+}
+.sankaku{
+position: absolute;
+
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+  border-color: transparent #000000 transparent transparent;
+z-index:1;
+top:150px;
+left:-15px;
+}
+.botan{
+  z-index:2;
+  top:0;
+  left:0;
+  position: absolute;
+
+  padding: 0.5em 1em;
+
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #FFF;
+  box-shadow:
+  0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+  0 5px 6.1px rgba(0, 0, 0, 0.076),
+  0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+  0 19.2px 19.8px rgba(0, 0, 0, 0.092),
+  0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+  0 101px 74px rgba(0, 0, 0, 0.13);
+
+
+}
+.botans{
+  z-index:0;
+position: absolute;
+width:110px;
+height:40px;;
+padding: 0.5em 1em;
+top:10px;
+left: 10px;
+background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.botana{
+  position: relative;
+}
+.tps{
+  font-family: 'Poppins', sans-serif;
+}
+.sms{
+  background-color: black;
+  background:black;
+}
