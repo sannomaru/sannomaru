@@ -110,7 +110,7 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
   font-family: 'Poppins', sans-serif;
 }
 .sms{
-  background-color: black;
+  background-color:black;
   background:black;
 }
 .mas{
@@ -120,4 +120,20 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 .cds{
   position :relative;
 
+}
+body {
+background-color:#f7f7f7;
+}
+.face{
+border-radius: 50%;
+width:150px;
+height:150px;
+}
+.card{
+  margin-top: 30px;
+  text-align : center;
+}
+.title{
+  text-align : center;
+  margin: 10px auto;
 }
