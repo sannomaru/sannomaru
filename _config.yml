@@ -13,4 +13,4 @@ layout: default
 plugins:
   - jekyll-feed
 
-permalink: /sannomaru/:categories/:year/:month/:day/:title:output_ext
+permalink: /:categories/:year/:month/:day/:title:output_ext
