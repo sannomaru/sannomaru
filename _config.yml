@@ -4,7 +4,13 @@ email: sannomaru@coderdojo.com
 
 
 url: "https://ituyama.github.io/sannomaru" # the base hostname & protocol for your site, e.g. http://example.com
-
+source              : .
+destination         : ./_site
+collections_dir     : .
+plugins_dir         : _plugins
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : _includes
 
 # Build settings
 layout: default
