@@ -93,23 +93,24 @@ title:  "CoderDojo三の丸"
     <div class="row title">
 
       <div class="title">
-          <h1>ニュース　&#x1f5de;</h1>
+          <h1>ニュース&#x1f5de;</h1>
       </div>
 
 
 
-<div class="row title">
-  <div class="title">
-    {% for post in site.posts %}
 
-        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-    <!--  <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p> -->
 
-    {% endfor %}
+    </div>
+    <div class="row title">
+      <div class="title">
+        {% for post in site.posts %}
 
-  </div>
+            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <!--  <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p> -->
 
-</div>
+        {% endfor %}
+
+      </div>
 
     </div>
   </div>
