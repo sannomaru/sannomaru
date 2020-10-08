@@ -13,4 +13,4 @@ layout: default
 plugins:
   - jekyll-feed
 
-permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink:/:year/:month/:day/:title:output_ext
