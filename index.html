@@ -88,11 +88,10 @@
   <div class="container">
     <div class="row title">
 
-      <main>
-        <section>
-          <header>
+
+
             <h2>投稿一覧</h2>
-          </header>
+
 
           {% for post in site.posts %}
             <aside>
@@ -100,9 +99,7 @@
               <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
             </aside>
           {% endfor %}
-        </section>
-      </main>
-
+  
     </div>
   </div>
   <!--メンター一覧-->
