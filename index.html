@@ -92,17 +92,21 @@ title:  "CoderDojo三の丸"
   <div class="container">
     <div class="row title">
 
+      <div class="title">
+          <h1>投稿一覧</h1>
+      </div>
 
 
-            <h2>投稿一覧</h2>
 
+<div class="title">
+  {% for post in site.posts %}
 
-          {% for post in site.posts %}
-            <aside>
-              <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-              <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
-            </aside>
-          {% endfor %}
+      <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+  <!--  <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p> -->
+
+  {% endfor %}
+
+</div>
 
     </div>
   </div>
