@@ -4,7 +4,7 @@ email: sannomaru@coderdojo.com
 
 
 baseurl: "/sannomaru" # the subpath of your site, e.g. /blog
-url: "https://ituyama.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ituyama.github.io/sannomaru" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
@@ -13,3 +13,5 @@ plugins:
   - jekyll-feed
 
 permalink: /:month/:day/:title:output_ext
+gist:
+  noscript: false
