@@ -84,21 +84,7 @@
   </div>
 
   <div class="container">
-    <div class="row title">
-
-
-
-            <h2>投稿一覧</h2>
-
-
-          {% for post in site.posts %}
-            <aside>
-              <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-              <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
-            </aside>
-          {% endfor %}
-  
-    </div>
+    
   </div>
   <!--メンター一覧-->
   <div class="container">
@@ -223,6 +209,10 @@
     </div>
     <!--ニュース-->
     <div class="row title">
+      <h1>ニュース</h1>
+    </div>
+    <div class="row title">
+    
       {{content}}
     </div>
     
