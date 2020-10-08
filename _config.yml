@@ -4,7 +4,7 @@ email: sannomaru@coderdojo.com
 
 
 url: "https://ituyama.github.io/sannomaru" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl :/logs
+baseurl : /logs
 # Build settings
 layout: default
 plugins:
