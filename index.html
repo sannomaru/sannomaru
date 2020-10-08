@@ -26,8 +26,6 @@
       <h1 class="display-3 col-md-12 col-lg-6 tops">
         For Children By Society
 
- {{ page.title }}
-
       </h1>
       <p class="lead col-md-12 col-lg-6">
         CoderDojo三の丸は茨城県で活動する、すべての子供たちを対象とした無償のプログラミング道場です。
@@ -225,12 +223,7 @@
 
 
 
-  {% for post in site.posts %}
-      <aside>
-        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-        <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
-      </aside>
-    {% endfor %}
+
   <script>
     twemoji.parse(document.body);
   </script>
