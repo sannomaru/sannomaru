@@ -23,9 +23,19 @@
     </a>
   </nav>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-12">
+    <div class="col-md-2">
+      <ul class="list-group nav bd-sidenav">
+        {% for post in site.posts %}
+
+          <li>  <a href="https://ituyama.github.io/sannomaru{{ post.url }}">{{ post.title }}</a></li>
+        <!--  <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p> -->
+
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-10">
       <div class="card">
     <div class="title">
     <h1>{{ page.title }}</h1>
