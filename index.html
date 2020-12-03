@@ -1,6 +1,6 @@
 ---
 
-title:  "CoderDojo三の丸"
+title: "CoderDojo三の丸"
 ---
 
 
@@ -22,7 +22,7 @@ title:  "CoderDojo三の丸"
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="https://twemoji.maxcdn.com/v/13.0.1/twemoji.min.js" integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
   <nav class="navbar navbar-expand-lg justify-content-center sticky-top navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
+    <!-- <a class="navbar-brand" href="index.html"> -->
       <img src="dojologo.png" width="200" height="60" loading="lazy">
     </a>
   </nav>
@@ -93,7 +93,7 @@ title:  "CoderDojo三の丸"
     <div class="row title">
 
       <div class="title">
-          <h1>ニュース&#x1f5de;</h1>
+        <h1>ニュース&#x1f5de;</h1>
       </div>
 
 
@@ -105,7 +105,9 @@ title:  "CoderDojo三の丸"
       <div class="title">
         {% for post in site.posts %}
 
-            <a href="https://ituyama.github.io/sannomaru{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <a href="https://ituyama.github.io/sannomaru{{ post.url }}">
+          <h3>{{ post.title }}</h3>
+        </a>
         <!--  <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p> -->
 
         {% endfor %}
